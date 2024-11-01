@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>false</active>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Debug view rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:24:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82412f5e8321921018226f80ceaad38e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Debug view rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_775078_loaner_re">f8b6356d83d9161018226f80ceaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">f8b6356d83d9161018226f80ceaad3c5</sys_scope>
+        <sys_update_name>sysrule_view_82412f5e8321921018226f80ceaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:26:49</sys_updated_on>
+        <table>x_775078_loaner_re_loaner_request</table>
+        <view>ess</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">f8b6356d83d9161018226f80ceaad3c5</application>
+        <file_path/>
+        <instance_id>7cd91edf1b718e9839a54089bd4bcb41</instance_id>
+        <instance_name>dev262620</instance_name>
+        <name>sysrule_view_82412f5e8321921018226f80ceaad38e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Debug view rule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-01 06:24:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;82412f5e8321921018226f80ceaad38e&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Debug view rule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Request" source="x_775078_loaner_re"&gt;f8b6356d83d9161018226f80ceaad3c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Request"&gt;f8b6356d83d9161018226f80ceaad3c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_82412f5e8321921018226f80ceaad38e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-01 06:26:49&lt;/sys_updated_on&gt;&lt;table&gt;x_775078_loaner_re_loaner_request&lt;/table&gt;&lt;view&gt;ess&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1473236214</payload_hash>
+        <record_name>Debug view rule</record_name>
+        <reverted_from/>
+        <source>0668fded83d9161018226f80ceaad30e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:26:49</sys_created_on>
+        <sys_id>01026f528361921018226f80ceaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192e667b5540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:26:49</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>c5026f529a619210a176a9dd8d43f361</update_guid>
+        <update_guid_history>c5026f529a619210a176a9dd8d43f361:-1473236214,8fe1ab5282619210910952da549debf3:-1969113271,36d1a752fc619210f6df36fe52e50d5e:-69064955,a4c1a752be6192104bec3eac0de08157:-1399582148,a1b1e3522161921084c2f12f893a660a:1918556742,1891271231619210925d1a35a384a8f7:-1969113271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:34:57</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>4faaa1b4ff824de39a3e1417961be6a1</sys_id>
+        <sys_metadata>82412f5e8321921018226f80ceaad38e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Debug view rule</sys_name>
+        <sys_package display_value="Loaner Request" source="x_775078_loaner_re">f8b6356d83d9161018226f80ceaad3c5</sys_package>
+        <sys_parent display_value="Loaner Request">d987b5ed83d9161018226f80ceaad30e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">f8b6356d83d9161018226f80ceaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0d94d77a04d844a09d16a76a70af9a40</sys_scope_delete>
+        <sys_update_name>sysrule_view_82412f5e8321921018226f80ceaad38e</sys_update_name>
+        <sys_update_version display_value="sysrule_view_82412f5e8321921018226f80ceaad38e">01026f528361921018226f80ceaad362</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:34:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
