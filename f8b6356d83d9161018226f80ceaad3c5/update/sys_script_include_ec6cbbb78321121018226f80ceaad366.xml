@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_775078_loaner_re.MySecretScript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>The source code must be hidden because this script is too useful...</description>
+        <name>MySecretScript</name>
+        <script><![CDATA[var MySecretScript = Class.create();
+MySecretScript.prototype = {
+    initialize: function() {
+    },
+
+    type: 'MySecretScript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 00:15:34</sys_created_on>
+        <sys_id>ec6cbbb78321121018226f80ceaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MySecretScript</sys_name>
+        <sys_package display_value="Loaner Request" source="x_775078_loaner_re">f8b6356d83d9161018226f80ceaad3c5</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Loaner Request">f8b6356d83d9161018226f80ceaad3c5</sys_scope>
+        <sys_update_name>sys_script_include_ec6cbbb78321121018226f80ceaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 00:15:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
